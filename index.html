@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<section class="--align-content-center --justify-con-space-between --flex">
+    <div class="circle"></div>
+    <header class="--align-items-center --justify-con-space-between --flex">
+        <a href="index.html"><img src="img/logo/starbuckslogo.webp" alt="" id="logo"></a>
+        <div>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="mobile-nav" id="mobile-nav">
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="content --flex --justify-con-space-between --align-items-center">
+        <div class="textSection">
+            <h2>It's not just coffee <br>It's <span>Starbucks</span></h2>
+            <p>At Starbucks, every cup is an invitation to savor the extraordinary.
+                From our expertly crafted coffee blends to our signature beverages, each sip is a celebration of flavor, passion, and quality.
+                Whether you're starting your day or taking a well-earned break, discover the perfect brew to inspire your moments and make them truly unforgettable.
+            </p>
+            <a class="button" href="#">Learn more</a>
+        </div>
+        <div class="imgSection --flex">
+            <img src="img/coffee1.webp" class="coffee" alt="">
+        </div>
+    </main>
+    <ul class="thumb">
+        <li><img src="img/coffee1.webp" onclick="imgSlider('coffee1.webp');changeCircleColor('#006241')" alt=""></li>
+        <li><img src="img/coffee2.webp" onclick="imgSlider('coffee2.webp');changeCircleColor('#ebb174')" alt=""></li>
+        <li><img src="img/coffee3.webp" onclick="imgSlider('coffee3.webp');changeCircleColor('#eb7495')" alt=""></li>
+    </ul>
+</section>
+<footer>
+
+</footer>
+</body>
+</html>
