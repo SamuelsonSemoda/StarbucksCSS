@@ -67,6 +67,7 @@ header {
     width: 100%;
     padding: 20px 100px;
     background: var(--light-color);
+    z-index: 1000;
 }
 
 header ul {
