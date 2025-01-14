@@ -275,11 +275,19 @@ header ul li a:hover {
     }
 
     .circle {
-        clip-path: circle(300px at right 800px);
+        clip-path: circle(300px at right 1000px);
     }
 
     .content {
         padding-top: 5rem;
+    }
+
+    .content .textSection h2{
+        font-size: 2.5rem;
+    }
+
+    .content .textSection h2 span{
+        font-size: 2.75rem;
     }
 
     .content .textSection p {
